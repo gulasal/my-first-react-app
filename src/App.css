@@ -1,0 +1,62 @@
+*{
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+  
+
+  
+}
+body{
+
+  background: url("https://thedevcouple.com/wp-content/uploads/2017/10/Interview-React-2.jpg" ) no-repeat fixed center;
+  
+  
+}
+.navbar{
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 600;
+  align-items: center;
+  color: azure;
+  background-color: black;
+}
+
+.navbar > .logo > h3{
+  color: deepskyblue;
+  font-size: 25px;
+  align-items: center;
+}
+.navbar > h4{
+  margin-right: 5%;
+  font-size: 20px;
+}
+.logo{
+  display: flex;
+}
+.main{
+  color: antiquewhite;
+  
+}
+.main > h1{
+  margin-left: 10%;
+  font-size: 60px;
+  margin-top: 70px;
+ 
+}
+.main > ul{
+ line-height: 60px;
+ font-size: 45px;
+ margin-top: 70px;
+ margin-left: 15%;
+ margin-right: 10%;
+ list-style: none;
+}
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: deepskyblue; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
